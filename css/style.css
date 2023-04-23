@@ -1,0 +1,65 @@
+/* common */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 1.1px;
+}
+
+p {
+    color: #495057;
+}
+
+body {
+    width: 1170px;
+    margin: 0 auto !important;
+    font-family: 'Inter', sans-serif; 
+}
+
+section > .container {
+    width: 1170px;
+    margin: auto;
+    display: block;
+    padding: 0 50px;
+}
+
+.section-title {
+    color: #494949;
+}
+
+.nav-container a:link,
+.nav-container a:active {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #495057;
+}
+
+.nav-container a:hover,
+.nav-container a:visited {
+    color: #495057;
+}
+
+
+
+.icon-user,
+.icon-doc-text-inv,
+.icon-mail-alt,
+.icon-star-1 {
+    color: #199CDB;
+}
+
+.icon-twitter,
+.icon-facebook,
+.icon-gplus,
+.icon-linkedin {
+    color: #199CDB;
+}
+
+.personal-icon {
+    margin: 20px 0 40px;
+}

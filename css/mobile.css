@@ -1,0 +1,435 @@
+/* mobile 0 => 600px*/
+[class*="col-"] {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) { 
+
+
+    section > .container {
+        padding: 0 50px;
+        max-width: none;
+        width: auto;
+    }
+    
+    #banner {
+        position: relative; 
+        height: 360px;
+        background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url(../img/banner.jpg);
+        background-size: cover;
+        margin: 0 50px;
+        background-position: 50% 50%;
+        background-repeat: no-repeats;
+    }
+    
+    .banner-text span {
+        color: #bcbcbc;
+    }
+    
+    .banner-text {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        text-align: center;
+        color: #fff; 
+    }
+    
+    /* === menu===  */
+    #nav-bar {
+        text-align: start;
+    }
+
+    .title-nav { 
+        display: none;
+    }
+ 
+    .nav-container {
+        display: block;
+        padding: 30px 50px;
+    }
+
+    .nav-container a {
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .nav-container i {
+        font-size: 32px;
+    }
+
+    /* === about === */
+
+    #about {
+        margin-bottom: 96px;
+    }
+
+    #target h2,
+    #personal-info h2 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    #target p,
+    .info li {
+        font-size: 32px;
+    }
+
+    .personal-icon i {
+        font-size: 32px;
+    }
+
+    #target {
+        height: 450px;
+        background-color: #F5F5F5;
+        padding: 50px 20px 103px 30px;
+    }
+    
+    #personal-info {
+        background-color: #F0F0F0;
+        padding: 50px 0 11px 50px;
+    }
+    
+    .info {
+        padding-left: 0;
+    }
+    
+    .info li {
+        list-style: none;
+        color: #6A6A6A;
+    } 
+
+    /* === about end === */
+
+    /* === section job-info === */
+
+    #job-info {
+        margin-bottom: 48px;
+    } 
+
+    #job-info p {
+        font-size: 32px;
+    } 
+
+    .grid-item,
+    .grid-item-1 {
+        margin-bottom: 70px;
+    } 
+
+
+    .grid-item {
+        border: 1px solid #dcdcdc;
+        padding: 20px;
+    }
+
+    .grid-item-1 {
+        border: 1px solid #dcdcdc;
+        padding: 20px;
+    }
+
+    .section-icon {
+        padding-bottom: 48px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+    } 
+
+    .section-icon h2 {
+        font-size: 55px;
+        font-weight: 500;
+        float: left;
+        width: 75%;
+        color: #6A6A6A;
+    }
+
+    .section-icon i {
+        float: right;
+        width: 25%;
+        color: #bcbcbc;
+        font-size: 96px;
+    } 
+
+    .icon-user-1,
+    .icon-lamp {
+        color: #6A6A6A;
+    }
+
+    .section-present span {
+        border: 1px solid #199CDB;
+        border-radius: 8px;
+        padding: 2px 10px;
+        background-color: #199CDB;
+        color: #fff;
+        font-style: italic;
+    } 
+
+    .section-icon,
+    .ic-pencil {
+        font-size: 35px;
+        padding-right: 10px;
+    }
+
+    .distance {
+        margin-bottom: 50px;
+        margin-left: 30px;
+        position: relative;
+    }
+
+    .section-text {
+        font-size: 44px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    } 
+
+    .section-text::before {
+        content: "";
+        width: 15px;
+        height: 15px;
+        border: 2px solid #199CDB;
+        background-color: #199CDB;
+        border-radius: 50%;
+        position: absolute;
+        top: 15px;
+        left: -30px;
+    }
+
+    .interests {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        padding-right: 10px;
+    }
+
+    .ic-megaphone,
+    .ic-strategy,
+    .ic-hotairballoon,
+    .interests-icon {
+        font-size: 35px;
+    }
+
+    .interests-icon {
+        padding: 40px;
+        border: 1px solid #199CDB;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        margin-right: 50px;
+        text-align: center;
+    } 
+
+    .interests-icon i {
+        color: #199CDB;
+        padding: 5px;
+    }
+
+    .html-container {
+        display: inline-block;
+        border-top: 2px solid #199CDB;
+        width: 110px;
+        margin-right: 5px;
+        box-shadow: 0 3px #199CDB;
+    }
+
+    .html-container3 {
+        display: inline-block;
+        border-top: 2px solid #bcbcbc;
+        width: 110px;
+        margin-right: 5px;
+        box-shadow: 0 3px #bcbcbc;
+    }
+
+    .html-english {
+        margin-bottom: 20px;
+    }
+
+    .html-english p {
+        font-weight: 500;
+    }  
+
+
+    /* === job-info end === */
+
+    /* === certificate === */
+    #certificate {
+        border: 1px solid #f7f7f7;
+        margin: 0 50px;
+        background-color: #f7f7f7;
+        padding: 0 30px;
+    }
+
+    #certificate h2 {
+        font-size: 55px;
+        font-weight: 500;
+    }
+    
+    .section-title {
+        margin: 40px 0;
+    } 
+
+    .certificate-dbi img,
+    .certificate-prf img,
+    .certificate-web img {
+        width: 80%;
+        height: auto;
+    }
+
+    .certificate-text p {
+        font-size: 35px;
+    } 
+    
+    .certificate-text p:first-child {
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    
+    .certificate-text p:nth-child(2) {
+        margin-bottom: 5px;
+    }
+
+    .certificate-dbi,
+    .certificate-prf {
+        border-bottom: 3px solid #E9A4A4;
+        margin: 50px 0;
+    }
+
+    /* === certificate end === */  
+
+    /* === project === */
+
+    #project {
+        margin: 0 50px;
+    } 
+
+    #project h2 {
+        font-size: 55px;
+        font-weight: 500;
+    }
+
+    #project p {
+        font-size: 35px;
+    }
+
+    .icon-user-1,
+    .icon-lamp {
+        font-size: 45px;
+        padding-right: 20px;
+    }
+
+    .project-title img,
+    .project-pet img,
+    .project-news img {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-title,
+    .project-pet,
+    .project-news {
+        margin-right: 50px;
+        margin-bottom: 100px;
+    } 
+    
+    .individual-title {
+        border-bottom: 1px solid #dcdcdc;
+        padding: 20px 0 20px 20px;
+        text-transform: uppercase;
+        font-weight: 600;
+    } 
+    
+    .individual-text p:first-child {
+       width: 30%;
+    }
+    
+    .individual-text p:last-child {
+        width: 70%;
+     }
+    
+    
+    
+    .individual-text {
+        border-bottom: 1px solid #dcdcdc;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px;
+    } 
+    
+    .project-text {
+        border-bottom: 2px solid #dcdcdc;
+        margin-top: 40px;
+    } 
+
+    .developer-text,
+    .project-developer div {
+        display: flex;
+        margin: 20px;
+        
+    }
+
+    .project-year {
+        display: inline;
+        border: 1px solid #199CDB;
+        border-radius: 50px;
+        padding: 10px 40px;
+        background-color: #199CDB;
+        color: #fff;
+        margin-left: 30px;
+    } 
+    
+    .project-title {
+        border: 1px solid #dcdcdc;
+        border-top: none;
+    }
+    
+    .individual-text p {
+        font-size: 35px;
+    }
+
+    .technology-1,
+    .technology-2 {
+        border: none;
+    }
+
+        /* === project end === */
+
+         /* === footer === */
+
+    #footer {
+        border: 1px solid #f3f3f3;
+        background-color: #f3f3f3;
+        text-align: center;
+        margin: 0 50px;
+    }
+    
+        .footer-title .icon-facebook,
+        .footer-title .icon-linkedin,
+        .icon-github-circled {
+            display: inline-block;
+            border: 1px solid #199CDB;
+            border-radius: 50%;
+            padding: 2px;
+            background-color: #199CDB;
+            color: #fff;
+        }
+    
+        .ul-footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px  20px ;
+            gap: 60px;
+        }
+    
+        .footer-title i {
+            font-size: 55px;
+        } 
+        
+        .footer-title li {
+            display: none;
+        }
+    
+        /* === footer end === */ 
+
+
+}
