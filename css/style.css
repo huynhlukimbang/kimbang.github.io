@@ -12,7 +12,7 @@ h1 {
 }
 
 p {
-    color: #495057;
+    color: #6A6A6A;
 }
 
 body {
@@ -29,22 +29,14 @@ section > .container {
 }
 
 .section-title {
-    color: #494949;
+    color: #6A6A6A;
 }
 
-.nav-container a:link,
-.nav-container a:active {
+.nav-container a {
     text-transform: uppercase;
     text-decoration: none;
-    color: #495057;
+    color: #6A6A6A;
 }
-
-.nav-container a:hover,
-.nav-container a:visited {
-    color: #495057;
-}
-
-
 
 .icon-user,
 .icon-doc-text-inv,
@@ -63,3 +55,4 @@ section > .container {
 .personal-icon {
     margin: 20px 0 40px;
 }
+
